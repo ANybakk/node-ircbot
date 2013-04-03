@@ -69,7 +69,7 @@ module.exports.prototype.connect = function () {
     
     self.addListener('error', function(message) {
       console.log('An error occurred: ', message);
-    }
+    });
 
     self.addListener("HELP", function(act, args, from) {
 
