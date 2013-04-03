@@ -1,0 +1,3 @@
+[submodule "lib/irc"]
+	path = lib/irc
+	url = https://github.com/ANybakk/node-irc.git
