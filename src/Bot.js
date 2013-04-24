@@ -89,8 +89,8 @@ module.exports.prototype.getCommands = function () {
  */
 module.exports.prototype.getData = function (channel) {
   
-  if(this.chans[channel] && this.chans[channel].data) {
-    return this.chans[channel].data
+  if(this.chans[channel] && this.chans[channel].hasOwnProperty("data")) {
+    return this.chans[channel].data;
   } else {
     return null;
   }
