@@ -5,6 +5,6 @@ module.exports.IRC_FORMAT = {
   NORMAL    : '\u000F'
 };
 
-module.exports.bold = function(str) {
+module.exports.wrapBold = function(str) {
   return module.exports.IRC_FORMAT.BOLD + str + module.exports.IRC_FORMAT.NORMAL;
 };
